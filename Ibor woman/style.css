@@ -1,0 +1,318 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+/*HEADER*/
+.nav-bar{
+    display: flex;
+    height: 90px;
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2) ;
+    z-index: 3;
+
+}
+.nav-bar:hover{
+    transition: all 0.5s linear;
+}
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding-right: 50px;
+    margin-top: 5px;
+    font-size: 0.9rem;
+   
+    
+}
+.img1{
+    height: 90px;
+    width: 22rem;
+    transition: all 0.5s ;
+}
+.img1:hover{
+    transform: rotateY(360deg);
+}
+li{
+    margin: 30px;
+
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+li a:hover{
+    color: orangered;
+    transition: all 0.5s linear;
+}
+.home{
+    color: orangered;
+    
+}
+.fa-solid{
+    font-size: smaller;
+}
+@media only screen and (max-width: 600px){
+.nav-bar{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: grey;
+    position: fixed;
+    top: 0;
+    box-shadow: 0px 8px 8px 0px rgba(0, 0, 0, 0.2) ;
+    z-index: 3;
+
+}
+.nav-bar ul{
+    list-style: none;
+    display: flex;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding-right: 35px;
+    margin-top: 20px;
+    font-size: 0.5rem;
+   
+    
+}
+.img1{
+    margin-right: -5rem;
+    height: 80px;
+    width: 10rem;
+    transition: all 0.5s ;
+}
+.img1:hover{
+    transform: rotateY(360deg);
+}
+li{
+    margin: 10px;
+}
+}
+/*ARROW*/
+.arrow{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 4px;
+    color: white;
+    background-color: red;
+}
+.fa-solid{
+    margin-top: 10px;
+}
+.arrow:hover{
+    background-color: black;
+    transition: all 0.3s linear;
+}
+/*DROPDOWN*/
+.dropdown{
+    position: relative;
+    display: inline-block;
+    border-bottom: 3rem;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    
+}
+.dropdown:hover .dropdown-content{
+    display: block ;
+    font-weight: 600;
+    text-align: left;
+    border-top: 1px solid orangered;
+    width: 14.3rem;
+    margin-left:-70px;
+    height: 8rem;
+    transition: all 0.5s linear;
+}
+.event-drop{
+    display: inline-block;
+    width: 13rem;
+    padding: 10px 10px;
+    border-bottom:1px solid #ddd ;
+    font-weight: lighter;
+    background-color: white;
+   
+}
+.event-drop:hover{
+    background-color: #ddd;
+}
+/*COVERIMAGE*/
+.coverimage{
+    margin-top: 4rem;
+}
+
+/*FIRST TEXT AREA*/
+.paragraph{
+    font-weight: bold;
+}
+.paragraph .welcome{
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.paragraph .helping{
+    font-size: 1rem;
+    color: orangered;
+    font-weight: 800;
+}
+.beauty{
+    color: rgb(145, 143, 143);
+}
+.verse{
+    color: orangered;
+}
+span{
+    color: orangered;
+}
+.contact{
+    color: rgb(145, 143, 143);
+}
+.address{
+    color: rgb(145, 143, 143);
+}
+.chat{
+    color: orangered;
+    text-decoration: none;
+}
+.chat:hover{
+    color: black;
+}
+/*BIGCONTAINER*/
+.bigcontainer1{
+    background-color: rgb(245, 245, 245);
+    width: 100%;
+    height: 75rem;
+    padding-top: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+/*HEADER LOGO*/
+.headerlogo{
+    background-color: rgb(245, 245, 245);
+    margin-top: 5rem;
+    padding-top: 1rem;
+    margin-bottom: -1rem;
+}
+.expression{
+    font-size: 1.5rem;
+}
+/*IMAGE FLEX*/
+.zone{
+    width: 23rem;
+    height: 35rem;
+    margin-left: 5rem;
+    border: 1px solid orangered;
+    border-radius: 10px;
+    text-align: left;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2) ;
+    background-color: white;
+}
+.zone:hover{
+    opacity: 0.5;
+    transition: all 0.5s linear;
+}
+.imgflex{
+    height: 25rem;
+    width: 23rem;
+    border-radius: 10px;
+}
+
+.number2, .number3{
+    margin-left: 1.5rem;
+}
+.number2{
+    height: 34rem;
+}
+.number3{
+    height: 33rem;
+}
+/*Header logo2*/
+.headerlogo2{
+    margin-top: 3rem;
+}
+.expression2{
+    font-size: 2rem;
+    margin-bottom: -1rem;
+    color: rgb(56, 55, 55);
+}
+/*Secondcontainer*/
+.bigcontainer2{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2rem;
+}
+.zone2{
+    width: 18rem;
+    margin-left: 2rem;
+    text-align: left;
+}
+.zone2:hover{
+    transition: all 0.5s linear;
+    border: 3px solid orangered;
+    opacity: 0.7;
+}
+.imgflex2{
+    width: 18rem;
+}
+.text-box{
+    margin-left: 1rem;
+}
+.headerlogo3{
+    height: 75rem;
+    width: 100%;
+    margin-top: 2rem;
+    -webkit-box-shadow: 0 10px 5px #888888;
+    -moz-box-shadow: 0 5px 5px #888888;
+    box-shadow: 0 5px 5px #888888;
+    
+}
+.headerlogo4{
+    background-color: rgb(245, 245, 245);
+    margin-top: 2rem;
+    height: 23rem;
+    padding-top: 3.5rem;
+}
+.headerlogo5{
+    margin-top: 4rem;
+}
+/*THIRD CONTAINER*/
+.thirdcontainer{
+    display: flex;
+    justify-content: center;
+    height: 58rem;
+    margin-top: 3rem;
+
+}
+.about1{
+    padding: 2rem;
+    font-weight: 300;
+    line-height: 2rem;
+    height: 50rem;
+    width: 300px;
+    margin-right: 3rem;
+    color: white;
+    background: rgb(214, 50, 50);
+    padding-top: 3rem;
+}
+.shorter{
+    height: 40rem;
+}
+footer{
+    width: 100%;
+    height: 25rem;
+    background-color: #3d3d3d;
+}
+.footerlogo{
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
